@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    /* list-style: none;
+    text-decoration: none; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.container_partner {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    margin-left: -12px;
+    margin-right: -12px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.container_roadmap {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.pt_82px {
+    padding-top: 82px;
+}
+
+.bottom_0_layer_adjust {
+    bottom: 0;
+    right: 0;
+    width: 309px !important;
+    height: 309px !important;
+}
+
+.pb_45px {
+    padding-bottom: 45px;
+}
+
+.pb_14px {
+    padding-bottom: 14px;
+}
+
+.pt_32px {
+    padding-top: 32px;
+}
+
+.w_h_dots_img {
+    max-width: 227px;
+    height: 4px;
+}
+
+.mb_15px {
+    margin-bottom: 15px;
+}
+
+.orange_layer_adjust {
+    top: 0;
+    left: 0;
+    width: 309px !important;
+    height: 309px !important;
+}
+
+.team_section {
+    max-width: 657px;
+    min-height: 330px;
+    border-radius: 16px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #FFFFFF3D;
+    border-radius: 16px;
+    background: #FFFFFF05;
+    backdrop-filter: blur(5px);
+}
+
+.team {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 69.5px;
+    text-align: center;
+    color: white;
+}
+
+.back_team_img {
+    background-image: url(../images/team_back_img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.min_580px_h {
+    min-height: 580px;
+}
+
+.p_20px {
+    padding: 20px;
+}
+
+.mt_31px {
+    margin-top: 31px;
+}
+
+.pos_abs {
+    position: absolute;
+}
+
+.pos_rel {
+    position: relative;
+}
+
+.image_adjust {
+    bottom: 0;
+    left: 0;
+}
+
+.ellispe_adjust {
+    bottom: 0;
+    left: 0;
+}
+
+.back_color_black {
+    background-color: black;
+}
+
+.partner {
+    font-family: Dela Gothic One;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 69.5px;
+    text-align: center;
+    color: white;
+}
+
+.easy {
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.75px;
+    text-align: left;
+    color: white;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.align-item-end {
+    align-items: end;
+}
+
+.align-item-start {
+    align-items: start;
+}
+
+.phase {
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.75px;
+    text-align: left;
+    color: #3B945E;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.p_8px {
+    padding: 8px 42px 8px 8px;
+}
+
+.border {
+    min-height: 125px;
+}
+
+.lorem_small_text {
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+.road {
+    font-family: Dela Gothic One;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 69.5px;
+    text-align: center;
+    color: white;
+}
+
+.roadmap_section {
+    background-color: black;
+}
+
+.border_img {
+    background-image: url(../images/border_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.border_img_2 {
+    background-image: url(../images/middle_image_border.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.svg_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 107px;
+    min-height: 107px;
+    border-radius: 50%;
+    border: 1px solid #44C53252;
+}
+
+.mb_41px {
+    margin-bottom: 41px;
+}
+
+.pb_15px {
+    padding-bottom: 15px;
+}
+
+.gap_13px {
+    gap: 13px;
+}
+
+.owner {
+    font-family: "Fira Sans", sans-serif;
+    /* font-family: Fira Sans; */
+    font-size: 16px;
+    color: #5CE959;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.pb_108px {
+    padding-bottom: 108px;
+}
+
+.pt_31px {
+    padding-top: 31px;
+}
+
+.pb_82px {
+    padding-bottom: 82px;
+}
+
+.card {
+    height: 80px;
+    padding: 13.48px 3.01px 12.51px 3.99px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #FFFFFF3D;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.object_fit_cover {
+    object-fit: cover;
+}
+
+.py_40px {
+    padding-top: 40px;
+}
+
+.pt_60px {
+    padding-top: 60px;
+}
+
+.lorem {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    opacity: 70%;
+}
+
+.fd_col {
+    flex-direction: column;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+@media (min-width: 1024px) {
+    .col-lg-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .col-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .py_max_lg_16px {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .align-item-max-lg-center {
+        align-items: center;
+    }
+
+    .text_max_lg_center {
+        text-align: center;
+    }
+
+    .col-max-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col_max_6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .svg_box {
+        min-width: 90px;
+        min-height: 90px;
+    }
+
+    .border {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .min_w_245_max_lg {
+        min-width: 245px;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-max-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-max-sm-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
