@@ -314,6 +314,10 @@
     object-fit: cover;
 }
 
+.pb_41px {
+    padding-bottom: 41px;
+}
+
 .py_40px {
     padding-top: 40px;
 }
